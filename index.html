@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +7,10 @@
     <!-- daisyUI link -->
      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+<!-- theme link from daisyUI -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
 
     <title>explore khalamoni</title>
     <style type="text/tailwindcss">
@@ -21,9 +25,20 @@
     </h1>
   <div class="text-center">
   <button class="btn" >click me</button>
+  <button class="btn btn-primary w-64 rounded-full">click me</button>
+  <button class="btn btn-info">click me</button>
+  <button class="btn btn-info-content">click me</button>
+  <button class="btn btn-error">click me</button>
+  <button class="btn btn-neutral  btn-outline btn-success">click me</button>
   </div>
-  
-
+  <input type="checkbox" class="checkbox checkbox-secondary" />
+<div class="dropdown">
+  <div tabindex="0" role="button" class="btn m-1">Click</div>
+  <ul tabindex="-1" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+    <li><a>Item 1</a></li>
+    <li><a>Item 2</a></li>
+  </ul>
+</div>
 
 </body>
 </html>
